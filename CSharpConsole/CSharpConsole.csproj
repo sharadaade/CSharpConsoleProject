@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharpConsole.CodeWin.Goto1to10</StartupObject>
+    <StartupObject>CSharpConsole.Concept.Properties2</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
