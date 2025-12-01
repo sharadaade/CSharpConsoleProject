@@ -10,6 +10,7 @@ namespace CSharpConsole.Concept
     {
         static void Main(string[] args)
         {
+            // ============== var ============================
             // Datatype is know during the compiled time
             // We can not change the type of var later on string to int
             // It checks the literal type and make the variable that type
@@ -17,6 +18,7 @@ namespace CSharpConsole.Concept
             var Name = "Sharad";
             //Name = 23; // Invalid
 
+            // ============= dynamic ========================
             // Dynamic determines type during the runtime
             // It is dynamically typed
             // We can change type in dynamic string to int
