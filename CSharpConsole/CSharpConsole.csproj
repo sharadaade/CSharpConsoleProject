@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharpConsole.Concept.Properties2</StartupObject>
+    <StartupObject>CSharpConsole.Concept.VarVsDynamic</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
