@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharpConsole.Threading.ThreadingDemo2</StartupObject>
+    <StartupObject>CSharpConsole.Concept.Exception1</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

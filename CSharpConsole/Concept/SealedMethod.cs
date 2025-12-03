@@ -1,8 +1,8 @@
 ﻿namespace CSharpConsole.Concept
 {
-    public class MyClass
+    public  class MyClass
     {
-        public void Method()
+        public  void Method()
         {
             Console.WriteLine("My Method");
         }
@@ -14,11 +14,12 @@
             Console.WriteLine("Child Method");
         }
     }
-    internal class SealedMethod
+    internal class SealedMethod :Child
     {
         static void Main(string[] args)
         {
-            
+            Child c = new Child();
+            c.Method();
         }
     }
 }
