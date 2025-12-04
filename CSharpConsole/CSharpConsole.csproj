@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharpConsole.Threading.LockingThread</StartupObject>
+    <StartupObject>CSharpConsole.CollectionsAll.HashTableDemo</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
