@@ -15,6 +15,10 @@ namespace CSharpConsole.CollectionsAll
             // Stack works
             // FILO => First In Last Out
             // LIFI => Last In First Out
+            // Initial capacity of Stack is 10
+            // It grows double 10, 20, 40,..
+            // We can also specify initial capacity
+            // There is no method to check capacity
 
             //============================================
             // Common methods => .Push(), .Pop(), .Peek()
@@ -24,7 +28,7 @@ namespace CSharpConsole.CollectionsAll
             //Console.WriteLine(st.Count);
 
             // Push() => It Add the object at the top in stack
-
+            
             st.Push(100);
             st.Push(200);
             st.Push(300);
@@ -47,6 +51,11 @@ namespace CSharpConsole.CollectionsAll
 
             // Peek() => It return Top most object from stack without removing
             //Console.WriteLine(st.Peek());
+
+
+            Console.WriteLine();
+            Stack sss = new Stack();
+            st.Push(10);
 
             
         }
