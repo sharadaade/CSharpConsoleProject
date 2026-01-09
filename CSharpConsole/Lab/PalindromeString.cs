@@ -19,10 +19,15 @@ namespace CSharpConsole.Lab
             int left = 0;
             int right = str.Length - 1;
 
-            while (str[left] != str[right])
+            while (left < right)
             {
-                isPalindrome = false;
-                break;
+                if (str[left] != str[right])
+                {
+                    isPalindrome = false;
+                    break;
+                }
+                left++;
+                right--;
             }
 
             if(isPalindrome)
