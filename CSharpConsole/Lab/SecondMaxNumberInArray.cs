@@ -14,7 +14,6 @@ namespace CSharpConsole.Lab
 
             int max = int.MinValue;
             int secondMax = int.MinValue;
-
             foreach (int num in arr)
             {
                 if (num > max)
@@ -27,7 +26,6 @@ namespace CSharpConsole.Lab
                     secondMax = num;
                 }
             }
-
             Console.WriteLine("Second Maximum: " + secondMax);
         }
     }

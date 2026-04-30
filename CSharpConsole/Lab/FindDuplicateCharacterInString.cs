@@ -23,7 +23,6 @@ namespace CSharpConsole.Lab
                         count++;
                     }
                 }
-
             }
         }
     }
